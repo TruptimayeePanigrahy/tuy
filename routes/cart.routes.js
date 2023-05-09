@@ -11,6 +11,8 @@ cartRoutes.get("/abc", (req,res)=>{
 
 
 
+
+// "hii"
 // to get products
 cartRoutes.get("/",authenticate,async (req,res) => {
     const token=req.headers.authorization.split(' ')[1];
